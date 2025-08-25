@@ -74,3 +74,24 @@ After deployment, test your website
 cd terraform
 terraform destroy
 ```
+## 8. Project Structure
+```bash
+week1-static-website/
+├── docs/
+│   └── deployment-guide.md
+├── src/
+│   ├── index.html
+│   ├── error.html
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
+├── scripts/
+│   ├── deploy.sh
+│   └── setup-s3.sh
+├── terraform/
+│   ├── main.tf
+│   ├── variables.tf
+│   └── outputs.tf
+└── README.md
+```
